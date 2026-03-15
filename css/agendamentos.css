@@ -14,7 +14,7 @@
 
 .search-box input {
     width: 100%;
-    padding: 10px 16px 10px 42px;
+    padding: 10px 16px 10px 48px;   /* Padding esquerdo aumentado */
     border-radius: var(--border-radius-sm);
     background: var(--bg-input);
     border: 2px solid transparent;
@@ -34,6 +34,7 @@
     top: 50%;
     transform: translateY(-50%);
     font-size: 0.9rem;
+    margin-left: 8px;    /* Margem adicionada */
 }
 
 .filter-select {
