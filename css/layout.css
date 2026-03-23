@@ -428,17 +428,20 @@
     font-size: 2.2rem;
     font-weight: 800;
     margin-bottom: 8px;
+    margin-left: 24px;  /* Adicionada margem esquerda (24px) */
 }
 
 .page-header p {
     color: var(--text-secondary);
     font-size: 1.05rem;
+    margin-left: 24px;  /* Adicionada margem esquerda (24px) */
 }
 
 .page-header-actions {
     display: flex;
     gap: 12px;
     margin-top: 20px;
+    margin-left: 24px;  /* Adicionada margem esquerda (24px) */
 }
 
 .modal-overlay {
@@ -522,6 +525,7 @@
     background: var(--bg-footer);
     color: rgba(255, 255, 255, 0.8);
     padding: 60px 0 0;
+    margin-top: 24px;   /* Adicionada margem top (24px) */
 }
 
 .footer-container {
@@ -532,36 +536,47 @@
 
 .footer-grid {
     display: grid;
-    grid-template-columns: 2fr 1fr 1fr 1fr;
+    grid-template-columns: 2fr 1fr 1fr 1fr;  /* Template aplterado para dar ênfase aos nossos nomes */
     gap: 40px;
     padding-bottom: 40px;
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 
-.footer-col h3,
+.footer-col h3,  /* Margens adicionadas (left, top e bottom) */
 .footer-col h4 {
     color: white;
     margin-bottom: 16px;
+    margin-left: 20px;
+    margin-top: 8px;
 }
 
-.footer-col h3 {
+.footer-col h3 {   /* Margens adicionadas (left, top) */
     font-size: 1.3rem;
     display: flex;
     align-items: center;
     gap: 8px;
+    margin-left: 20px;
+    margin-top: 8px;
 }
 
-.footer-col h4 {
+.footer-col h4 {  /* Margens adicionadas (left, top) */
     font-size: 1rem;
+    margin-left: 20px;
+    margin-top: 8px;
 }
 
-.footer-col p {
+.footer-col p {  /* Margens adicionadas (left, top e bottom) */
     font-size: 0.9rem;
     line-height: 1.7;
+    margin-left: 20px;
+    margin-top: 8px;
+    margin-bottom: 8px;
 }
 
-.footer-col ul li {
+.footer-col ul li {  /* Margens adicionadas (left, top e bottom) */
     margin-bottom: 8px;
+    margin-left: 20px;
+    margin-top: 8px;
 }
 
 .footer-col ul li a:hover {

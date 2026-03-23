@@ -130,7 +130,7 @@
 
 .hero-float-card:nth-child(2) {
     bottom: 15%;
-    left: -30px;
+    left: 30px;  /* Tamanho do card ajustado de -30px para 30px*/
     animation-delay: 1.5s;
 }
 
